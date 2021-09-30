@@ -1,0 +1,61 @@
+*{
+    margin: 2px;
+    padding: 1px;
+    color: rgb(245, 17, 9);
+}
+
+body {
+    background-color:rgb(147, 160, 172);
+}
+
+
+
+
+nav > ul {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-brand{
+    float:left;
+    padding:10px 10px;
+   
+}
+
+
+
+ul {
+    display: block;
+    margin-block-start: 10em;
+    padding-inline-start: 100px;
+}
+
+li {
+    list-style: none;
+    position: right;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+form{
+    
+    align-content: center;
+	height: 20%;
+	opacity: 0.8;
+    text-align: center;
+    
+    
+}
+
+input {
+    text-rendering: auto;
+    border-color: black;
+    height: 10%;
+}
+
+container {
+    height: 10em;
+    position: relative }
