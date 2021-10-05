@@ -87,8 +87,29 @@ input {
     border: 2px rgb(0, 0, 0) solid;
     border-radius: 5px;
     background: rgb(231, 228, 22);
-    cursor: pointer;
+    
 }
 container {
     height: 10em;
-    position: relative }
+    position: relative 
+}
+
+
+.grid{
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    
+}
+
+.containersegunda{
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
