@@ -91,7 +91,7 @@ input {
 }
 container {
     height: 10em;
-    position: relative 
+    position: relative;
 }
 
 
@@ -119,15 +119,39 @@ container {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: calc(100% / 3);
+    width: calc(100%);
     margin: 10px;
     border: 1px solid #000;
     border-radius: 3px;
 }
 
 #valor{
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
+}
+
+.rodape {
+    padding: 28px 0;
+    margin-top: 55px;
+    background-color: #746f6f; }
+    
+.rodape span,
+
+.rodape a {
+      color: #080808;
+}
+
+.rodape a:hover {
+      color:#ff0062; 
+}
+  
+.rodape-menu ul {
+    text-align: right;
+    margin: 0; 
+}
+  
+.rodape-menu li {
+    display: inline-block;
+    padding-left: 20px; 
 }
